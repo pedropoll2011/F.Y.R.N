@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "27ad3647171920c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "974e891263952873",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d576bd130e04ff9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personagens/Itaú Bankham.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Itaú Bankham"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7501a6418ef40922",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b893a6bde0479ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ee2e5b0338f3f97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "067b302823a4a8ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "7f2d5d0325c0bce5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "33dfd9606b707e4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0616f6d9274842d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a4b626f8c565012",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "image.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para image"
+            }
+          },
+          {
+            "id": "08defe7be2be03ef",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "image.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para image"
+            }
+          },
+          {
+            "id": "c1866478651d9bad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e7c74d75b8e808b4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "6d6c2b47eda589e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "image.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de image"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
+    }
+  },
+  "active": "3d576bd130e04ff9",
+  "lastOpenFiles": [
+    "Personagens/Ria Yngwaldattir.md",
+    "Personagens/Torig.md",
+    "Personagens/Tryte Yendévor.md",
+    "Personagens/Drake Bell.md",
+    "Personagens/Itaú Bankham.md",
+    "Personagens/Cannora Harkness.md",
+    "Personagens/Bienna.md",
+    "Híbrido (Elfo e Orc).md",
+    "Imagens/drake2.png",
+    "Imagens/torig2.png",
+    "Imagens/torig.png",
+    "Organizações/Ordem.md",
+    "Imagens/cannora.jpg",
+    "Imagens/placeholder.png",
+    "Cannora Harkness.md",
+    "Lumorath.md",
+    "Lifesink.md",
+    "Cavaleiro.md",
+    "Cajados Rubros.md",
+    "Aventureiro.md",
+    "Signos/O Herdeiro.md",
+    "Signos/A Colmeia.md",
+    "Artífice.md",
+    "Voltar a tela principal.md",
+    "Valkland.md",
+    "Novos Cavaleiros das Chamas Negras.md",
+    "Lugares/Ther.md",
+    "Batalha de Ther de 534.md",
+    "Bárbaro.md",
+    "Imagens/bienna.png",
+    "Imagens/itau3.png",
+    "Imagens/alvo.png",
+    "Lugares/Alvölandd.md",
+    "Imagens/itau3.jpg",
+    "Imagens/robocop.png",
+    "Blocos/reino.md",
+    "Classes",
+    "Especies",
+    "Campanhas",
+    "Signos",
+    "Organizações",
+    "Blocos",
+    "Lugares",
+    "Personagens",
+    "Personagens",
+    "Imagens"
+  ]
+}
