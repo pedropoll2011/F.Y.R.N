@@ -11,14 +11,14 @@
             "id": "3d576bd130e04ff9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Personagens/Itaú Bankham.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Itaú Bankham"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -197,13 +197,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d576bd130e04ff9",
+  "active": "ce61f1adbd5afc9e",
   "lastOpenFiles": [
+    "Personagens/Itaú Bankham.md",
     "Personagens/Ria Yngwaldattir.md",
     "Personagens/Torig.md",
     "Personagens/Tryte Yendévor.md",
     "Personagens/Drake Bell.md",
-    "Personagens/Itaú Bankham.md",
     "Personagens/Cannora Harkness.md",
     "Personagens/Bienna.md",
     "Híbrido (Elfo e Orc).md",
