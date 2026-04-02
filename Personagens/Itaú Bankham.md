@@ -322,34 +322,99 @@ if (carousel) {
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+Itaú é um valkiano de estatura alta, cabelo e barba ruivos.
+### Evolução
+* Durante o arco tal — Matou um urso e agora usa a pele dele
+* Durante o outro arco tall 2 — Começou a usar mascara para esconder a indentidade
+
 
 ## História
 
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
+### Raízes
+
+Itaú nasceu no clã do corvo, filho de Harald Bankham, um antigo bardo que sonhava em unir os saxões de [[Valkland]].
+
+Após ser acusado de traição, sua família foi forçada a fugir. Durante a fuga, sua mãe morreu, evento que marcou profundamente Itaú e despertou nele um juramento: nunca recuar novamente.
+
+Posteriormente, seu pai desafia o conde Canute em duelo, o derrota e assume o comando do clã.
+
+### Infância e formação
+
+Durante sua infância, Itaú foi impedido de lutar diretamente, sendo treinado em estratégia, negociação e combate.
+
+Mesmo assim, desenvolveu uma visão dura do mundo, baseada em honra, vingança e sobrevivência.
+
+### Queda do clã do corvo
+
+A tentativa de seu pai de unir os saxões gerou desconfiança entre outros clãs.
+
+Lobos, ursos e cabras se uniram em uma aliança temporária para destruir o clã do corvo, visando dividir suas terras, riquezas e poder.
+
+O ataque veio de todas as direções, dando início a uma batalha desesperada.
+
+
+### O massacre
+
+Desobedecendo ordens, Itaú foge do caminho de evacuação e acaba testemunhando o fim de seu clã.
+
+No salão central, vê seu pai ser morto com o próprio machado do clã, empunhado por [[Yngwaldd]], enquanto [[Ivan O Louco]] observa.
+
+Movido por impulso, Itaú ataca Ivan e o mata, marcando seu primeiro ato como guerreiro.
+
+### Sobrevivência
+
+No momento em que acreditava que morreria, é salvo por [[Floki]], que o retira do local em meio ao caos.
+
+O clã do corvo é destruído, deixando Itaú como um de seus últimos sobreviventes.
 
 ## Personalidade
 
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
+Itaú é moldado por perda, violência e sobrevivência.
+
+Carrega uma visão dura do mundo, onde honra e morte são inseparáveis.  
+É impulsivo em momentos críticos, mas também demonstra inteligência estratégica, fruto do treinamento recebido de seu pai.
+
+## Objetivos
+
+- Honrar o legado de [[Harald Bankham]]  
+- Dar sentido à queda do clã do corvo  
+- Sobreviver em um mundo marcado por traição  
 
 ## Habilidades e notas
 
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
+- Treinamento estratégico desde a infância  
+- Experiência precoce em combate  
+- Forte resistência mental a situações extremas  
+
+## Durante a campanha
+
+AQUI VAI TODO O RESTO DO CARALHO
+
 
 ## Relações
 
-- 
+- [[Harald Bankham]] — Pai  
+- [[Floki]] — Protetor / aliado  
+- [[Yngwaldd]] — Assassino de seu pai  
+- [[Ivan O Louco]] — Morto por Itaú  
 
 ## Aparições
 
-d
-d
-d
-d
-d
-d
-d
-d
+- Origem em [[Valkland]]  
+- Queda do clã do corvo  
+- Início da jornada como sobrevivente  
+
+## Linha do tempo
+
+- Fuga de [[Valkland]]  
+- Morte da mãe  
+- Duelo de Harald contra Canute  
+- Ascensão do clã do corvo  
+- Treinamento de Itaú  
+- Ataque dos clãs aliados  
+- Morte de Harald  
+- Morte de Ivan  
+- Fuga com Floki
 
 
 <!-- WIKI:EXTRAS:START -->

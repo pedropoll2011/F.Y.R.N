@@ -4,21 +4,22 @@ name: Ria Yngwaldattir
 image: ""
 images:
   - Imagens/ria.png
-species: ""
-gender: ""
-age: ""
-birthday: ""
-sign: ""
-status: ""
+species: "[[Humano]]"
+gender: Feminino
+age:
+birthday:
+  - —/—/— da segunda era
+sign:
+status: Vivo
 affiliation: ""
 occupation: ""
 class: ""
-city: ""
-region: ""
+city:
+region:
 continent: ""
 kingdom: "[[Valkland]]"
-altura: ""
-origin: ""
+altura:
+origin: "[[A Ordem e o Kaos]]"
 tags:
   - character
   - npc
@@ -319,25 +320,59 @@ if (carousel) {
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+Ria é uma jovem valkiana de cabelos ruivos compridos. Sua aparência ainda carrega traços de infância, contrastando com a dureza de suas experiências recentes.
 
 ## História
 
-Em algum momento, Ria, seu pai [[Yngwald Yngwaldattir]] e sua mãe fogem de [[Valkland|Valk]], seu pai estava sendo acusado de traição após desertar do exército.
+Em algum momento, Ria, seu pai [[Yngwald]] e sua mãe fogem de [[Valkland]]. Seu pai havia desertado do exército e era acusado de traição.
+
+A família viaja rumo ao sul, eventualmente chegando ao reino de [[Alvölandd]], passando pela região das [[Ruínas de Ilya]]. Durante essa jornada, Ria perde seu pai em combate e é capturada junto com sua mãe.
+
+Mais tarde, ambas são libertadas. No entanto, vivendo em um reino onde enfrentam preconceito contra valkianos e sem qualquer apoio, passam a enfrentar grandes dificuldades para sobreviver.
+
+Após esses eventos, um único sentimento permanece no coração da garota:  
+**o desejo de vingança contra aqueles que tiraram a vida de seu pai.**
 
 ## Personalidade
 
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
+Pouco se sabe sobre como Ria era antes da morte de seu pai.
+
+Após sua perda, desenvolveu um forte rancor, tornando-se alguém mais impulsivo e propenso a deixar a raiva guiar suas ações.
 
 ## Habilidades e notas
 
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
+- Demonstrou habilidade com estilingue ao auxiliar seu pai em combate.  
+- Durante a emboscada contra o grupo de Tryte, utilizava uma lâmina curta.  
+- Apresenta forte inclinação para se tornar uma [[Ladina]].  
 
 ## Relações
 
-- 
+- [[Yngwald]] — Pai  
+- ?? — Mãe  
 
 ## Aparições
+
+### [[Saga dos Santos de Ýria]]
+Sua primeira aparição ocorre durante essa saga, onde enfrenta a party principal e os paladinos de Ýria.
+
+### Preparo e descanso, aguardando um aliado e um dilema
+Durante a noite, no caminho para a residência de [[Affons]], o grupo de [[Tryte Yendévor|Tryte]] e [[Kurtis]] é emboscado por Ria e outros indivíduos desconhecidos.
+
+Após ser derrotada, Ria é capturada e levada para interrogatório.
+
+> ⚠️ Definir com o mestre:  
+> - Ela foi libertada?  
+> - Fugiu?
+
+Mais tarde, reaparece no [[Peitoral de Adamante]], onde [[Tryte Yendévor|Tryte]], [[Drake]] e [[Floki]] estavam.  
+Tenta atacar Tryte, mas falha.
+
+Após uma conversa com Floki, foge novamente, tornando-se uma fugitiva procurada em [[Ther]] após ser denunciada por Drake.
+
+### Pré-Arco da Força
+
+Ria invade a base dos [[Santos de Ýria]] no forte da Ordem.  
+Dessa vez, no entanto, o encontro não é hostil — ela surge com um **pedido de ajuda**.
 
 - 
 
