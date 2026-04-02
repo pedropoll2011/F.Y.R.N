@@ -323,7 +323,7 @@ Escreva aqui a aparência geral, postura, voz, presença e impressão que o pers
 
 ## História
 
-Em algum momento, seu pai [[Yngwald Yngwaldattir]] e sua mãe fogem de [[Valkland|Valk]], seu pai havia desertado do exército e estava sendo caçado.
+Em algum momento, Ria, seu pai [[Yngwald Yngwaldattir]] e sua mãe fogem de [[Valkland|Valk]], seu pai estava sendo acusado de traição após desertar do exército.
 
 ## Personalidade
 

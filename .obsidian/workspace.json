@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9597967638c718f2",
+        "id": "722d3eadfd54a216",
         "type": "tabs",
         "children": [
           {
-            "id": "f798bb19f0d3408d",
+            "id": "0258757d74b8e910",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Personagens/Ria Yngwaldattir.md",
-                "bFile": "Personagens/Ria Yngwaldattir.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Personagens/Ria Yngwaldattir.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Ria Yngwaldattir  (Index)"
+              "icon": "lucide-file",
+              "title": "Ria Yngwaldattir"
             }
           }
         ]
@@ -198,15 +197,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f798bb19f0d3408d",
+  "active": "0258757d74b8e910",
   "lastOpenFiles": [
-    "Personagens/Itaú Bankham.md",
+    "Personagens/Tryte Yendévor.md",
     "Personagens/Ria Yngwaldattir.md",
+    "Personagens/Torig.md",
+    "Personagens/Itaú Bankham.md",
     "Personagens/Drake Bell.md",
     "Personagens/Cannora Harkness.md",
     "Personagens/Bienna.md",
-    "Personagens/Torig.md",
-    "Personagens/Tryte Yendévor.md",
     "Lugares/Alvölandd.md",
     "Valkland.md",
     "Imagens/alvo.png",
