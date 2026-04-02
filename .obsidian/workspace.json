@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "974e891263952873",
+        "id": "9597967638c718f2",
         "type": "tabs",
         "children": [
           {
-            "id": "3d576bd130e04ff9",
+            "id": "f798bb19f0d3408d",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "aFile": "Personagens/Ria Yngwaldattir.md",
+                "bFile": "Personagens/Ria Yngwaldattir.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: Ria Yngwaldattir  (Index)"
             }
           }
         ]
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5
   },
   "right": {
     "id": "33dfd9606b707e4d",
@@ -180,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,15 +198,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce61f1adbd5afc9e",
+  "active": "f798bb19f0d3408d",
   "lastOpenFiles": [
     "Personagens/Itaú Bankham.md",
     "Personagens/Ria Yngwaldattir.md",
-    "Personagens/Torig.md",
-    "Personagens/Tryte Yendévor.md",
     "Personagens/Drake Bell.md",
     "Personagens/Cannora Harkness.md",
     "Personagens/Bienna.md",
+    "Personagens/Torig.md",
+    "Personagens/Tryte Yendévor.md",
+    "Lugares/Alvölandd.md",
+    "Valkland.md",
+    "Imagens/alvo.png",
     "Híbrido (Elfo e Orc).md",
     "Imagens/drake2.png",
     "Imagens/torig2.png",
@@ -223,18 +227,14 @@
     "Signos/A Colmeia.md",
     "Artífice.md",
     "Voltar a tela principal.md",
-    "Valkland.md",
     "Novos Cavaleiros das Chamas Negras.md",
     "Lugares/Ther.md",
     "Batalha de Ther de 534.md",
     "Bárbaro.md",
     "Imagens/bienna.png",
     "Imagens/itau3.png",
-    "Imagens/alvo.png",
-    "Lugares/Alvölandd.md",
     "Imagens/itau3.jpg",
     "Imagens/robocop.png",
-    "Blocos/reino.md",
     "Classes",
     "Especies",
     "Campanhas",

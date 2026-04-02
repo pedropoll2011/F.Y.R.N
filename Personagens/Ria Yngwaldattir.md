@@ -323,7 +323,7 @@ Escreva aqui a aparência geral, postura, voz, presença e impressão que o pers
 
 ## História
 
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
+Em algum momento, seu pai [[Yngwald Yngwaldattir]] e sua mãe fogem de [[Valkland|Valk]], seu pai havia desertado do exército e estava sendo caçado.
 
 ## Personalidade
 
