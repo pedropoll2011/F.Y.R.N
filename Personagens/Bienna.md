@@ -11,7 +11,9 @@ birthday: ""
 sign: ""
 status: ""
 affiliation: ""
-occupation: ""
+occupation:
+  - Tesoureira
+  - da [[Ordem]]
 class: ""
 city: ""
 region: ""

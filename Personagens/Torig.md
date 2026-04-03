@@ -6,23 +6,30 @@ images:
   - Imagens/torig.png
   - Imagens/torig2.png
   - Imagens/torig3.png
-species: ""
-gender: ""
-age: ""
-birthday: ""
+species: Torig
+gender: Torig
+age: Na flor da idade
+birthday:
+  - Um dia importante para todos nós
 sign: ""
-status: ""
-affiliation: ""
-occupation: ""
-class: ""
+status: Vivendo a melhor vida
+affiliation:
+  - Grupo de [[Maik]]
+occupation:
+  - Guarda costa
+  - Torig
+class: Torig
 city: ""
 region: ""
 continent: ""
 kingdom: "[[Norhem]]"
-altura: ""
-origin: ""
+altura: Alto
+origin: "[[A Ordem e o Kaos]]"
 tags:
   - character
+  - npc
+  - male
+  - important_npc
 cssclasses:
   - wiki-character
 ---
@@ -321,27 +328,32 @@ if (carousel) {
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+Torig é um Norheano geralmente visto usando armadura e o seu iconico Spangenhelm com coifa de malha. sua verdadeira aparência sem armadura é um completo mistério até hoje.
 
 ## História
 
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
+Enquanto estava em [[Norhem]], para fugir de um casamento arranjado, Torig corre para a catacumba do seu falecido tio, la ele encontra [[Maik]] e a sua equipe de pesquisadores investigando a estrutura. Torig, pensando ter descoberto ladrões de tumba, massacra sem dó todos os pesquisadores, menos [[Maik]] que se refugiou mais adentro da catacumba. 
 
+Torig corre atrás dele pra dentro da estrutura, eventualmente o encontrando, mas dessa vez [[Maik]] consegue usar a razão contra Torig, explicando que não estavam la para roubar a tumba, e sim para estuda-la.
+
+Para se desculpar, Torig agora segue [[Maik]] por aí, agindo como seu guarda costa.
+ 
 ## Personalidade
 
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
+Torig é bastante descontraído e direto, mas fiel a aqueles que considera. Tem um puta de um sotaque de colono alemão do interior do Rio Grande do Sul.
 
 ## Habilidades e notas
 
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
+Você duvidaria das habilidades de Torig? eu não faria isso se fosse voce...
 
 ## Relações
 
-- 
+- [[Maik]] — Melhor amigo (???) e Empregador
 
 ## Aparições
-
-- 
+### [[Ensinamentos de Ur'Ramiel]]
+- Torig é introduzido junto a [[Maik]] quando chegam de viagem até [[O Baronato de Ur'Hamiel]], voltando de Norhem onde todo o fiasco da pesquisa de [[Maik]] aconteceu.
+- Torig é ordenado por [[Maik]] a proteger [[Ur'Hamiel]], que estava em seu estado de sono profundo, enquanto a party e [[Maik]] vão atrás de [[Ysdra]]
 
 <!-- WIKI:EXTRAS:START -->
 

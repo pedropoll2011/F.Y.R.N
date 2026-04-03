@@ -5,6 +5,7 @@
     "tags": "tags",
     "affiliation": "multitext",
     "location": "text",
-    "birthday": "multitext"
+    "birthday": "multitext",
+    "occupation": "multitext"
   }
 }

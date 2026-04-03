@@ -3,20 +3,35 @@
   "search": "-path:Blocos/",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#character  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#organization  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.52916666666667,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.55,
   "lineSizeMultiplier": 1.12083333333333,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 9.89583333333333,
-  "linkStrength": 1,
-  "linkDistance": 253,
-  "scale": 0.6316046762907326,
+  "centerStrength": 0,
+  "repelStrength": 11.875,
+  "linkStrength": 0.791666666666667,
+  "linkDistance": 341,
+  "scale": 0.16348370567220227,
   "close": false
 }

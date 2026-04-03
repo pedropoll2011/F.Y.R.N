@@ -3,7 +3,8 @@ type: character
 name: Cannora Harkness
 image: ""
 images:
-  - Imagens/cannora.jpg
+  - Imagens/cannora.png
+  - Imagens/cannora2.png
 species: "[[Humano]]"
 gender: Feminino
 age: ??
@@ -25,12 +26,13 @@ tags:
   - character
   - npc
   - female
+  - companion_npc
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
-> [!abstract] Voce esta numa página de categoria: NPC
+> [!abstract] Voce esta numa página de categoria: NPC Companion
 [[Voltar a tela principal]]
 # Cannora Harkness
 

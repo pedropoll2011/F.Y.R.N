@@ -1,9 +1,9 @@
 ---
 type: organization
-name: Ordem
+name: Kaos
 image: ""
 images:
-  - Imagens/ordem.png
+  - Imagens/kaos.png
 kind: ""
 leader: ""
 founder: ""
@@ -28,7 +28,7 @@ cssclasses:
 > [!abstract] Voce esta numa página de categoria: Organização
 [[Voltar a tela principal]]
 
-# Ordem
+# Kaos
 
 <!-- WIKI:INFOBOX:START -->
 ```dataviewjs
@@ -322,36 +322,24 @@ if (carousel) {
 
 ## Descrição
 
+Escreva aqui a aparência geral, identidade visual, símbolos, reputação e impressão que a organização passa.
 
 ## História
 
-Fundada por dois engenheiros brilhantes com o apoio dos [[Santos de Ilya]], que, unidos pelo ódio ao Kaos e ao status quo de [[Alvölandd]], tinham um único objetivo: matar [[Morthum-Maer]] e erradicar o [[Kaos]] por completo. 
-Para isso, seus fundadores iniciaram o desenvolvimento de uma arma secreta — um projeto cuja verdadeira natureza é conhecida apenas por [[Affons]] e [[Kurtis “Egbert” Shatterfield|Kurtis]].
+Escreva aqui a origem da organização, eventos importantes, mudanças internas e papel dela no mundo.
 
 ## Estrutura
 
-A ordem opera de forma semelhante a uma guilda de aventureiros, aceitando contratos variados, especialmente na região de [[Ther]], com o dinheiro ganho sendo usados para fundar a criação da arma secreta — missões relacionadas ao desenvolvimento da arma secreta são delegadas aos [[Santos de Ilya]].
+Descreva a hierarquia, patentes, divisões internas, forma de recrutamento e funcionamento.
 
-Sua sede é um forte e está localizada próxima à residência de [[Affons]], onde os [[Santos de Ilya]] também mantêm uma base de operações.
+## Objetivos e atuação
 
-## Hierarquia
-* **Fundadores**: [[Affons]] e [[Kurtis]]  
-* **Co Fundadores**: [[Drake Bell]], [[Itaú Bankham]] e [[Tryte Yendevor]]
-- **Tesoureira**: [[Personagens/Bienna]]
-- **Contratados**: [[Aedrazyll]]
-## Sub-organizações
-- [[Novos Cavaleiros das Chamas Negras]] — Após a queda de sua ordem, [[Drake Bell]] decidiu reconstruir os cavaleiros aos quais um dia pertenceu, buscando restaurar um legado perdido.
-## Eventos Marcantes
-- **[[Os último esforço do fim e o primeiro esforço do começo]]**  — Nos momentos finais do arco, [[Affons]] decide firmar a causa após testemunhar a honestidade dos [[Santos de Ilya]] e entrar de acordo com seus sentimentos conflitados devido a [[Dilema das cartas]]. O status de heróis que os [[Santos de Ilya]] adquiriram após a [[Batalha contra Auron]] foi chave para o crescimento e popularização da guilda em [[Ther]].
+Explique o que a organização quer, como atua, quais métodos utiliza e qual sua área de influência.
 
 ## Recursos e notas
 
 Anote bases, artefatos, contatos, tropas, segredos, regras internas ou curiosidades importantes.
 
-## Aliados Notáveis
-- **[[Ur'Ramiel]]**: Um lendário mago e barão que jurou auxiliar a ordem após os eventos do [[Ensinamentos de Ur'Ramiel]].
-- **[[Yrellius Harkness]]**: Um herói de [[Ther]] que permaneceu na ordem após [[Batalha de Ther de 534]].  A tragédia envolvendo sua filha [[Cannora Harkness]], profundamente ligada aos [[Santos de Ilya]], moldou sua decisão de proteger aquilo que ela considerava importante.
-- ??: Um influente banqueiro cuja lealdade começou após um incidente envolvendo sua filha e uma ameaça vampírica.
 ## Relações
 
 - 

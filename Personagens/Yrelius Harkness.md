@@ -1,34 +1,40 @@
 ---
-type: organization
-name: Ordem
+type: character
+name: Yrelius Harkness
 image: ""
 images:
-  - Imagens/ordem.png
-kind: ""
-leader: ""
-founder: ""
-status: ""
-alignment: ""
-headquarters: ""
+  - Imagens/yrellius.jpg
+species: "[[Humano]]"
+gender: Masculino
+age: ""
+birthday:
+  - —/—/478 da segunda era
+sign: ""
+status: Vivo
+affiliation:
+  - Exército de Ther
+  - "[[Ordem]]"
+occupation:
+  - Soldado
+class: ""
 city: ""
 region: ""
 continent: ""
 kingdom: ""
-scope: ""
-members: ""
-founded: ""
-origin: ""
+altura: ""
+origin: "[[A Ordem e o Kaos]]"
 tags:
-  - organization
+  - character
+  - male
+  - npc
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
-> [!abstract] Voce esta numa página de categoria: Organização
+> [!abstract] Voce esta numa página de categoria: NPC
 [[Voltar a tela principal]]
-
-# Ordem
+# Yrelius Harkness
 
 <!-- WIKI:INFOBOX:START -->
 ```dataviewjs
@@ -140,8 +146,8 @@ if (!resolvedImages.length) {
 }
 
 /* HTML da imagem:
-   - 1 imagem => imagem única
-   - 2+ imagens => carrossel
+   - 1 imagem => modo antigo do Itaú
+   - 2+ imagens => carrossel, mas cada slide usa o mesmo encaixe do modo antigo
 */
 let imageHTML = "";
 
@@ -195,18 +201,28 @@ let html = `
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Tipo</div>
-    <div class="wiki-infobox-value">${rich(page.kind)}</div>
+    <div class="wiki-infobox-label">Espécie</div>
+    <div class="wiki-infobox-value">${rich(page.species)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Líder</div>
-    <div class="wiki-infobox-value">${rich(page.leader)}</div>
+    <div class="wiki-infobox-label">Gênero</div>
+    <div class="wiki-infobox-value">${rich(page.gender)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Fundador</div>
-    <div class="wiki-infobox-value">${rich(page.founder)}</div>
+    <div class="wiki-infobox-label">Idade</div>
+    <div class="wiki-infobox-value">${rich(page.age)}</div>
+  </div>
+  
+  <div class="wiki-infobox-row">
+    <div class="wiki-infobox-label">Data de nascimento</div>
+    <div class="wiki-infobox-value">${rich(page.birthday)} (${rich(page.sign)})</div>
+  </div>
+
+  <div class="wiki-infobox-row">
+    <div class="wiki-infobox-label">Altura</div>
+    <div class="wiki-infobox-value">${rich(page.altura)}</div>
   </div>
 
   <div class="wiki-infobox-row">
@@ -215,42 +231,27 @@ let html = `
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Alinhamento</div>
-    <div class="wiki-infobox-value">${rich(page.alignment)}</div>
+    <div class="wiki-infobox-label">Afiliação</div>
+    <div class="wiki-infobox-value">${rich(page.affiliation)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Sede</div>
-    <div class="wiki-infobox-value">${rich(page.headquarters)}</div>
+    <div class="wiki-infobox-label">Ocupação</div>
+    <div class="wiki-infobox-value">${rich(page.occupation)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Membros</div>
-    <div class="wiki-infobox-value">${rich(page.members)}</div>
+    <div class="wiki-infobox-label">Classe</div>
+    <div class="wiki-infobox-value">${rich(page.class)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Escopo</div>
-    <div class="wiki-infobox-value">${rich(page.scope)}</div>
-  </div>
-
-  <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Fundação</div>
-    <div class="wiki-infobox-value">${rich(page.founded)}</div>
-  </div>
-
-  <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Localização</div>
+    <div class="wiki-infobox-label">Local de origem</div>
     <div class="wiki-infobox-value">${rich(page.kingdom)} > ${rich(page.region)} > ${rich(page.city)}</div>
   </div>
 
   <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Continente</div>
-    <div class="wiki-infobox-value">${rich(page.continent)}</div>
-  </div>
-
-  <div class="wiki-infobox-row">
-    <div class="wiki-infobox-label">Campanha</div>
+    <div class="wiki-infobox-label">Campanha de origem</div>
     <div class="wiki-infobox-value">${rich(page.origin)}</div>
   </div>
 </div>
@@ -322,39 +323,38 @@ if (carousel) {
 
 ## Descrição
 
+Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
 
 ## História
 
-Fundada por dois engenheiros brilhantes com o apoio dos [[Santos de Ilya]], que, unidos pelo ódio ao Kaos e ao status quo de [[Alvölandd]], tinham um único objetivo: matar [[Morthum-Maer]] e erradicar o [[Kaos]] por completo. 
-Para isso, seus fundadores iniciaram o desenvolvimento de uma arma secreta — um projeto cuja verdadeira natureza é conhecida apenas por [[Affons]] e [[Kurtis “Egbert” Shatterfield|Kurtis]].
+No ano 512 da Segunda Era, em [[Ther]], no [[Condado da Família Uthery]], [[Klergus Uthery]] assumia temporariamente o comando da cidade na ausência de seu pai. Era um período instável para [[Alvolandd]], um reino sem rei, onde nobres disputavam poder e influência como predadores sobre restos de uma ordem em ruínas.
 
-## Estrutura
+Foi nesse contexto que Yrellius Harkness surgiu nos portões do sul.
 
-A ordem opera de forma semelhante a uma guilda de aventureiros, aceitando contratos variados, especialmente na região de [[Ther]], com o dinheiro ganho sendo usados para fundar a criação da arma secreta — missões relacionadas ao desenvolvimento da arma secreta são delegadas aos [[Santos de Ilya]].
+Vestido em trapos, ferido por flechas e trazendo consigo o brasão negro de [[Vaergr]], Harkness foi imediatamente cercado pelos guardas da cidade. Sua reputação bastava para espalhar o medo: era tratado como monstro, assassino, força destrutiva. Ainda assim, [[Klergus Uthery]] ordenou que ninguém o impedisse de falar com ele pessoalmente.
 
-Sua sede é um forte e está localizada próxima à residência de [[Affons]], onde os [[Santos de Ilya]] também mantêm uma base de operações.
+Quando o jovem visconde se aproximou, descobriu que Harkness não carregava um troféu, uma arma secreta ou despojos de guerra — mas sim uma bebê envolta em trapos: [[Cannora Harkness]], sua filha.
 
-## Hierarquia
-* **Fundadores**: [[Affons]] e [[Kurtis]]  
-* **Co Fundadores**: [[Drake Bell]], [[Itaú Bankham]] e [[Tryte Yendevor]]
-- **Tesoureira**: [[Personagens/Bienna]]
-- **Contratados**: [[Aedrazyll]]
-## Sub-organizações
-- [[Novos Cavaleiros das Chamas Negras]] — Após a queda de sua ordem, [[Drake Bell]] decidiu reconstruir os cavaleiros aos quais um dia pertenceu, buscando restaurar um legado perdido.
-## Eventos Marcantes
-- **[[Os último esforço do fim e o primeiro esforço do começo]]**  — Nos momentos finais do arco, [[Affons]] decide firmar a causa após testemunhar a honestidade dos [[Santos de Ilya]] e entrar de acordo com seus sentimentos conflitados devido a [[Dilema das cartas]]. O status de heróis que os [[Santos de Ilya]] adquiriram após a [[Batalha contra Auron]] foi chave para o crescimento e popularização da guilda em [[Ther]].
+A revelação quebrou a tensão do momento. A figura da “besta” deu lugar à de um homem em ruínas, aterrorizado não pela própria morte, mas pela possibilidade de falhar com a criança. Harkness implorou para que Ther acolhesse a menina e exigiu, para si mesmo, a morte como punição pelos males que havia causado.
 
-## Recursos e notas
+Klergus, porém, recusou-se a repetir a lógica cruel de seu pai. Em vez de condená-lo, ofereceu abrigo, comida, curandeiros e uma chance de redenção. Diante de toda a cidade, acolheu Cannora e estendeu a mão ao bárbaro derrotado.
 
-Anote bases, artefatos, contatos, tropas, segredos, regras internas ou curiosidades importantes.
+Naquele instante, Yrellius Harkness deixou de ser apenas uma lenda de terror e tornou-se protegido da Casa de Ther.
 
-## Aliados Notáveis
-- **[[Ur'Ramiel]]**: Um lendário mago e barão que jurou auxiliar a ordem após os eventos do [[Ensinamentos de Ur'Ramiel]].
-- **[[Yrellius Harkness]]**: Um herói de [[Ther]] que permaneceu na ordem após [[Batalha de Ther de 534]].  A tragédia envolvendo sua filha [[Cannora Harkness]], profundamente ligada aos [[Santos de Ilya]], moldou sua decisão de proteger aquilo que ela considerava importante.
-- ??: Um influente banqueiro cuja lealdade começou após um incidente envolvendo sua filha e uma ameaça vampírica.
+Esse encontro marcaria o início de uma nova vida para ele — e, no futuro, faria de Harkness o principal cavaleiro da [[Casa de Ther]], além de um dos grandes Ícones do arruinado reino de [[Alvolandd]].
+
+## Personalidade
+
+Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
+
+## Habilidades e notas
+
+Anote poderes, técnicas, itens importantes, segredos e curiosidades.
+
 ## Relações
 
-- 
+- [[Cannora Harkness]] — Filha
+- [[Klergus Uthery]] — Amigo
 
 ## Aparições
 
@@ -365,5 +365,6 @@ Anote bases, artefatos, contatos, tropas, segredos, regras internas ou curiosida
 <!-- WIKI:EXTRAS:END -->
 
 <!-- WIKI:RELACIONADOS:START -->
-
+![[Blocos/reino#^semtitulo]]
+![[Blocos/cidade#^semtitulo]]
 <!-- WIKI:RELACIONADOS:END -->
