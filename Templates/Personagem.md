@@ -32,6 +32,7 @@ continent: ""
 kingdom: ""
 altura: ""
 origin: ""
+alignment: ""
 tags: [character]
 cssclasses:
   - wiki-character
@@ -244,6 +245,11 @@ let html = `
   <div class="wiki-infobox-row">
     <div class="wiki-infobox-label">Ocupação</div>
     <div class="wiki-infobox-value">${rich(page.occupation)}</div>
+  </div>
+
+  <div class="wiki-infobox-row">
+    <div class="wiki-infobox-label">Alinhamento</div>
+    <div class="wiki-infobox-value">${rich(page.alignment)}</div>
   </div>
 
   <div class="wiki-infobox-row">

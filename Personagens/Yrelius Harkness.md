@@ -6,9 +6,9 @@ images:
   - Imagens/yrellius.jpg
 species: "[[Humano]]"
 gender: Masculino
-age: ""
+age: "56"
 birthday:
-  - —/—/478 da segunda era
+  - —/—/478 da Segunda Era
 sign: ""
 status: Vivo
 affiliation:

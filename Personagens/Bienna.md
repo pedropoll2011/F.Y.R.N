@@ -5,12 +5,14 @@ image: ""
 images:
   - Imagens/bienna.png
 species: "[[Híbrido (Elfo e Orc)]]"
-gender: ""
-age: ""
-birthday: ""
+gender: Feminino
+age:
+birthday:
+  - —/—/— da Segunda Era
 sign: ""
-status: ""
-affiliation: ""
+status: Vivo
+affiliation:
+  - "[[Ordem]]"
 occupation:
   - Tesoureira
   - da [[Ordem]]
@@ -20,7 +22,7 @@ region: ""
 continent: ""
 kingdom: ""
 altura: ""
-origin: ""
+origin: "[[A Ordem e o Kaos]]"
 tags:
   - character
   - npc

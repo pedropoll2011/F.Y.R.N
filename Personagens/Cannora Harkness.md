@@ -7,20 +7,21 @@ images:
   - Imagens/cannora2.png
 species: "[[Humano]]"
 gender: Feminino
-age: ??
+age:
 birthday:
-  - ??/??/?? da segunda era
-sign: ??
+  - —/—/— da Segunda Era
+sign:
 status: Vivo
 affiliation:
   - "[[Ordem]]"
-occupation: ""
+occupation:
+  - Paladina de Ýria
 class: ""
 city: ""
 region: ""
 continent: ""
 kingdom: ""
-altura: 1,62
+altura: 1,65
 origin: "[[A Ordem e o Kaos]]"
 tags:
   - character

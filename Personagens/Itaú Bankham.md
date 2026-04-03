@@ -9,7 +9,7 @@ species: "[[Humano]]"
 gender: Masculino
 age: "19"
 birthday:
-  - ??/??/515 da segunda era
+  - —/—/515 da Segunda Era
 sign: "[[O Herdeiro]]"
 status: Vivo
 affiliation:

@@ -8,7 +8,7 @@ species: "[[Humano]]"
 gender: Feminino
 age:
 birthday:
-  - —/—/— da segunda era
+  - —/—/— da Segunda Era
 sign:
 status: Vivo
 affiliation: ""
@@ -326,12 +326,12 @@ Ria é uma jovem valkiana de cabelos ruivos compridos. Sua aparência ainda carr
 
 Em algum momento, Ria, seu pai [[Yngwald]] e sua mãe fogem de [[Valkland]]. Seu pai havia desertado do exército e era acusado de traição.
 
-A família viaja rumo ao sul, eventualmente chegando ao reino de [[Alvölandd]], passando pela região das [[Ruínas de Ilya]]. Durante essa jornada, Ria perde seu pai em combate e é capturada junto com sua mãe.
+A família viaja rumo ao sul, eventualmente chegando ao reino de [[Alvölandd]], passando pela região das [[Ruínas de Ýria]]. Durante essa jornada, Ria perde seu pai em combate e é capturada junto com sua mãe.
 
 Mais tarde, ambas são libertadas. No entanto, vivendo em um reino onde enfrentam preconceito contra valkianos e sem qualquer apoio, passam a enfrentar grandes dificuldades para sobreviver.
 
 Após esses eventos, um único sentimento permanece no coração da garota:  
-**o desejo de vingança contra aqueles que tiraram a vida de seu pai.**
+o desejo de vingança contra aqueles que tiraram a vida de seu pai.
 
 ## Personalidade
 
@@ -372,9 +372,7 @@ Após uma conversa com Floki, foge novamente, tornando-se uma fugitiva procurada
 ### Pré-Arco da Força
 
 Ria invade a base dos [[Santos de Ýria]] no forte da Ordem.  
-Dessa vez, no entanto, o encontro não é hostil — ela surge com um **pedido de ajuda**.
-
-- 
+Dessa vez, no entanto, o encontro não é hostil — ela surge com um pedido de ajuda.
 
 <!-- WIKI:EXTRAS:START -->
 

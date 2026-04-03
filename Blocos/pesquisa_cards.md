@@ -5,7 +5,7 @@ const container = dv.container;
    CONFIG
 ========================= */
 
-const SEARCHABLE_TYPES = ["character", "organization"];
+const SEARCHABLE_TYPES = ["character", "organization", "entity"];
 
 /* =========================
    HELPERS

@@ -9,12 +9,13 @@ species: "[[Humano]]"
 gender: Masculino
 age: "20"
 birthday:
-  - 01/04/514 da segunda era
+  - 01/04/514 da Segunda Era
 sign: "[[O Herdeiro]]"
 status: Vivo
 affiliation:
   - "[[Ordem]]"
 occupation: "[[Aventureiro]]"
+alignment: "[[Rebel Good]]"
 class: "[[Artífice]]"
 city: "[[Lumorath]]"
 region: "[[Ther]]"
@@ -237,6 +238,11 @@ let html = `
   <div class="wiki-infobox-row">
     <div class="wiki-infobox-label">Ocupação</div>
     <div class="wiki-infobox-value">${rich(page.occupation)}</div>
+  </div>
+
+  <div class="wiki-infobox-row">
+    <div class="wiki-infobox-label">Alinhamento</div>
+    <div class="wiki-infobox-value">${rich(page.alignment)}</div>
   </div>
 
   <div class="wiki-infobox-row">

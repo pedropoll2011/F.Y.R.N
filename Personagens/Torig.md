@@ -23,7 +23,7 @@ city: ""
 region: ""
 continent: ""
 kingdom: "[[Norhem]]"
-altura: Alto
+altura: Alto, a mulherada gosta
 origin: "[[A Ordem e o Kaos]]"
 tags:
   - character
@@ -340,7 +340,8 @@ Para se desculpar, Torig agora segue [[Maik]] por aí, agindo como seu guarda co
  
 ## Personalidade
 
-Torig é bastante descontraído e direto, mas fiel a aqueles que considera. Tem um puta de um sotaque de colono alemão do interior do Rio Grande do Sul.
+* Torig é bastante descontraído, direto, e brincalhão, alem disso, tambem é fiel a aqueles que considera. 
+* Tem um puta de um sotaque de colôno alemão do interior do Rio Grande do Sul.
 
 ## Habilidades e notas
 
@@ -348,7 +349,7 @@ Você duvidaria das habilidades de Torig? eu não faria isso se fosse voce...
 
 ## Relações
 
-- [[Maik]] — Melhor amigo (???) e Empregador
+- [[Maik]] — Melhor amigo (???) e empregador
 
 ## Aparições
 ### [[Ensinamentos de Ur'Ramiel]]

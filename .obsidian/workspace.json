@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personagens/Cannora Harkness.md",
+                "file": "Personagens/Tryte Yendévor.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cannora Harkness"
+              "title": "Tryte Yendévor"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,51 +199,51 @@
   },
   "active": "24f1eb9cd4db4263",
   "lastOpenFiles": [
-    "Imagens/cannora2.png",
     "Personagens/Yrelius Harkness.md",
-    "Personagens/Cannora Harkness.md",
-    "Imagens/cannora.png",
-    "Imagens/cannora.png",
-    "Personagens/Itaú Bankham.md",
-    "Personagens/Tryte Yendévor.md",
-    "Personagens/Ria Yngwaldattir.md",
-    "Personagens/Torig.md",
     "Personagens/Drake Bell.md",
+    "Entidades/Asbjorn.md",
+    "Entidades/Ýria.md",
+    "Personagens/Itaú Bankham.md",
+    "Personagens/Torig.md",
+    "Personagens/Ria Yngwaldattir.md",
     "Personagens/Bienna.md",
+    "Personagens/Cannora Harkness.md",
+    "Personagens/Tryte Yendévor.md",
+    "Ruínas de Ýria.md",
+    "Voltar a tela principal.md",
+    "Vaergr.md",
+    "Blocos/pesquisa_cards.md",
+    "Templates/Organizacoes.md",
+    "Templates/Personagem.md",
+    "Templates/Lugares.md",
+    "Templates/Entidade.md",
+    "Imagens/yria.jpg~",
+    "Imagens/yria.jpg",
+    "Imagens/asbjorn.png~",
+    "Imagens/asbjorn.png",
+    "Entidades",
+    "Organizações/Ordem.md",
+    "Organizações/Kaos.md",
+    "Imagens/cannora2.png",
+    "Imagens/cannora.png",
+    "Imagens/cannora.png",
     "Signos/A Colmeia.md",
     "Signos/O Herdeiro.md",
-    "Organizações/Ordem.md",
     "Campanhas/A Ordem e o Kaos.md",
     "Especies/Humano.md",
     "Lugares/Alvölandd.md",
     "Lugares/Ther.md",
-    "Voltar a tela principal.md",
-    "Artífice.md",
-    "Aventureiro.md",
-    "Bárbaro.md",
-    "Batalha de Ther de 534.md",
-    "Cajados Rubros.md",
-    "Cavaleiro.md",
-    "Ensinamentos de Ur'Ramiel.md",
-    "Híbrido (Elfo e Orc).md",
-    "Lifesink.md",
     "Imagens/ordem.png",
     "Imagens/kaos.png",
     "Imagens/bienna.png",
     "Imagens/yrellius.jpg",
     "Imagens/torig3.png",
-    "Imagens/torig2.png",
-    "Imagens/torig.png",
-    "Imagens/ria.png",
     "Classes",
     "Especies",
     "Campanhas",
     "Signos",
     "Organizações",
     "Blocos",
-    "Lugares",
-    "Personagens",
-    "Personagens",
-    "Imagens"
+    "Lugares"
   ]
 }

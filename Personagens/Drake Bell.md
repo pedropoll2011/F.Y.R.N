@@ -9,7 +9,7 @@ species: "[[Humano]]"
 gender: Masculino
 age: "20"
 birthday:
-  - ??/??/514 da segunda era
+  - —/—/514 da Segunda Era
 sign: "[[A Colmeia]]"
 status: Vivo
 affiliation:
