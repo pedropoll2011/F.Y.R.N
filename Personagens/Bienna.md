@@ -24,6 +24,8 @@ origin: "[[A Ordem e o Kaos]]"
 alignment: ""
 tags:
   - character
+  - female
+  - npc
 cssclasses:
   - wiki-character
 ---

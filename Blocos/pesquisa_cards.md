@@ -5,7 +5,7 @@ const container = dv.container;
    CONFIG
 ========================= */
 
-const SEARCHABLE_TYPES = ["character", "organization", "entity"];
+const SEARCHABLE_TYPES = ["character", "organization", "deity"];
 
 /* =========================
    HELPERS
@@ -62,7 +62,8 @@ function getMainImage(pageObj) {
 function getTypeLabel(type) {
   const labels = {
     character: "Personagem",
-    organization: "Organização"
+    organization: "Organização",
+    deity: "Deidade"
   };
 
   return labels[type] || type;

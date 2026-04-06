@@ -1,44 +1,43 @@
 <%* 
-let nome = await tp.system.prompt("Nome da entidade");
+let nome = await tp.system.prompt("Nome do deus");
 if (!nome || nome.trim() === "") {
-  nome = "Entidade Sem Nome";
+  nome = "Deus Sem Nome";
 }
 nome = nome.replace(/[\\/:*?"<>|]/g, "").trim();
 await tp.file.rename(nome);
 _%>
 ---
-type: entity
+type: deity
 name: "<% nome %>"
 image: ""
 images: []
-species: ""
-gender: ""
 title: ""
-domain: []
+gender: ""
+domains: []
 alignment: ""
-nature: ""
-status: ""
-plane: ""
 pantheon: ""
-worshippers: []
+status: ""
 symbols: []
+sacred_animals: []
 sacred_places: []
+followers: []
 blessings: []
 curses: []
-appearance: ""
-personality: ""
-goals: []
-enemies: []
-allies: []
+plane: ""
 origin: ""
-tags: [entity]
+affiliation: ""
+believes_in: []
+kingdom: ""
+region: ""
+continent: ""
+tags: [deity]
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: Entidade  
+> [!abstract] Voce esta numa página de categoria: Deus
 [[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
@@ -204,7 +203,27 @@ const leftMarkdown = `
 
 ## Descrição
 
-Escreva aqui a presença da entidade, sua manifestação, aura, voz, influência e a impressão que ela causa em mortais ou outras forças sobrenaturais.
+—
+
+## História
+
+—
+
+## Dogma e influência
+
+—
+
+## Culto e seguidores
+
+—
+
+## Poderes e manifestações
+
+—
+
+## Relações divinas
+
+—
 
 `;
 
@@ -224,25 +243,22 @@ right.innerHTML = `
 
   <div class="wiki-infobox-name">${esc(v(page.name || page.file.name))}</div>
 
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Espécie</div><div class="wiki-infobox-value">${rich(page.species)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Gênero</div><div class="wiki-infobox-value">${rich(page.gender)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Título</div><div class="wiki-infobox-value">${rich(page.title)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Domínio</div><div class="wiki-infobox-value">${rich(page.domain)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Gênero</div><div class="wiki-infobox-value">${rich(page.gender)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Domínios</div><div class="wiki-infobox-value">${rich(page.domains)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Alinhamento</div><div class="wiki-infobox-value">${rich(page.alignment)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Natureza</div><div class="wiki-infobox-value">${rich(page.nature)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Status</div><div class="wiki-infobox-value">${rich(page.status)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Plano</div><div class="wiki-infobox-value">${rich(page.plane)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Panteão</div><div class="wiki-infobox-value">${rich(page.pantheon)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Adoradores</div><div class="wiki-infobox-value">${rich(page.worshippers)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Status</div><div class="wiki-infobox-value">${rich(page.status)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Símbolos</div><div class="wiki-infobox-value">${rich(page.symbols)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Animais sagrados</div><div class="wiki-infobox-value">${rich(page.sacred_animals)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Locais sagrados</div><div class="wiki-infobox-value">${rich(page.sacred_places)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Seguidores</div><div class="wiki-infobox-value">${rich(page.followers)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Bênçãos</div><div class="wiki-infobox-value">${rich(page.blessings)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Maldições</div><div class="wiki-infobox-value">${rich(page.curses)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Aparência</div><div class="wiki-infobox-value">${rich(page.appearance)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Personalidade</div><div class="wiki-infobox-value">${rich(page.personality)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Objetivos</div><div class="wiki-infobox-value">${rich(page.goals)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Aliados</div><div class="wiki-infobox-value">${rich(page.allies)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Inimigos</div><div class="wiki-infobox-value">${rich(page.enemies)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Plano</div><div class="wiki-infobox-value">${rich(page.plane)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Afiliação</div><div class="wiki-infobox-value">${rich(page.affiliation)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Crença</div><div class="wiki-infobox-value">${rich(page.believes_in)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Local sagrado</div><div class="wiki-infobox-value">${rich(page.kingdom)} &gt; ${rich(page.region)} &gt; ${rich(page.continent)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Origem</div><div class="wiki-infobox-value">${rich(page.origin)}</div></div>
 </div>
 `;
@@ -309,34 +325,13 @@ if (carousel) {
 ```
 <!-- WIKI:TOP:END -->
 
-## História
-
-Escreva aqui a origem da entidade, como ela surgiu, de onde veio seu poder, quais eventos marcaram sua existência e qual seu papel no mundo.
-
-## Dogma e influência
-
-Descreva aquilo que a entidade representa, seus mandamentos, tabus, promessas, exigências e a forma como influencia mortais, reinos ou outras forças sobrenaturais.
-
-## Culto e seguidores
-
-Explique quem a venera, como ocorrem os rituais, quais oferendas são feitas, como funcionam templos, seitas, ordens ou pactos ligados a ela.
-
-## Poderes e manifestações
-
-Anote milagres, bênçãos, maldições, sinais, avatares, aparições, formas assumidas e efeitos causados por sua presença.
-
-## Relações divinas ou infernais
-
-Descreva alianças, rivalidades, guerras antigas, pactos, laços de sangue cósmico e conexões com outros seres sobrenaturais.
-
-## Relações
--
 
 ## Aparições
--
 
+—
+
+---
 <!-- WIKI:RELACIONADOS:START -->
 ![[Blocos/reino#^semtitulo]]
-![[Blocos/regiao#^semtitulo]]
 ![[Blocos/cidade#^semtitulo]]
 <!-- WIKI:RELACIONADOS:END -->

@@ -5,25 +5,31 @@ image: ""
 images:
   - Imagens/itau.png
   - Imagens/itau3.png
-species: ""
-gender: ""
-age: ""
-birthday: ""
-sign: ""
-status: ""
-affiliation: ""
-occupation: ""
-class: ""
-believes_in: []
+species: "[[Humano]]"
+gender: Masculino
+age: "19"
+birthday:
+  - —/—/515 da [[Segunda Era]]
+sign: "[[O Herdeiro]]"
+status: Vivo
+affiliation:
+  - Co-fundador da [[Ordem]]
+occupation:
+  - "[[Aventureiro]]"
+class: "[[Bárbaro]]"
+believes_in:
+  - "[[Ýria]]"
 city: ""
 region: ""
 continent: ""
-kingdom: ""
-altura: ""
-origin: ""
+kingdom: "[[Valkland]]"
+altura: 1,90
+origin: "[[A Ordem e o Kaos]]"
 alignment: ""
 tags:
   - character
+  - male
+  - player_character
 cssclasses:
   - wiki-character
 ---
