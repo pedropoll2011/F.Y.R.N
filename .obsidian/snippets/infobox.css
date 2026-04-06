@@ -4,7 +4,7 @@
 
 .wiki-character,
 .wiki-home {
-  display: flow-root;
+  display: block;
 }
 
 .wiki-character .block-language-dataviewjs,
@@ -13,17 +13,68 @@
 }
 
 /* =========================
-   INFOBOX HOST
+   SEARCH (FULL WIDTH)
 ========================= */
 
-.wiki-character .wiki-infobox-host {
-  float: right;
-  width: 320px;
-  margin: 0 0 20px 24px;
-  contain: layout;
+.wiki-global-search {
+  width: 100% !important;
+  max-width: none !important;
+  display: block !important;
+  margin: 10px 0 16px 0;
 }
 
-.wiki-character .wiki-infobox-host .wiki-infobox {
+.wiki-global-search-input {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  display: block !important;
+  box-sizing: border-box !important;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-size: 0.95rem;
+}
+
+/* =========================
+   TOPO DA PÁGINA (GRID)
+========================= */
+
+.wiki-character .wiki-top-host {
+  display: block;
+  width: 100%;
+  margin: 0 0 28px 0;
+}
+
+.wiki-character .wiki-top-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+.wiki-character .wiki-top-main {
+  min-width: 0;
+  width: 100%;
+}
+
+.wiki-character .wiki-top-side {
+  min-width: 0;
+  width: 320px;
+  justify-self: end;
+}
+
+.wiki-character .wiki-page-title {
+  margin: 0 0 18px 0;
+}
+
+/* =========================
+   INFOBOX
+========================= */
+
+.wiki-character .wiki-infobox {
   width: 100%;
   margin: 0;
   background: var(--background-secondary);
@@ -41,22 +92,20 @@
 .wiki-character .wiki-infobox-image {
   background: var(--background-secondary-alt);
   border-bottom: 1px solid var(--background-modifier-border);
-  height: 320px;
+  height: 360px;
   overflow: hidden;
   position: relative;
 }
 
-/* imagem única */
 .wiki-character .wiki-infobox-main-image {
   width: 100%;
   height: 100%;
   max-height: none;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   display: block;
 }
 
-/* carrossel */
 .wiki-character .wiki-carousel {
   position: relative;
   width: 100%;
@@ -86,7 +135,7 @@
   height: 100%;
   max-height: none;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   display: block;
 }
 
@@ -180,7 +229,10 @@
   word-break: break-word;
 }
 
-/* LINKS */
+/* =========================
+   LINKS
+========================= */
+
 .wiki-character .wiki-inline-link {
   color: var(--link-color);
   text-decoration: none;
@@ -261,189 +313,21 @@
 }
 
 /* =========================
-   HOME PAGE
-========================= */
-
-.wiki-home .wiki-home-subtitle {
-  margin-top: -6px;
-  margin-bottom: 18px;
-  font-size: 1rem;
-  color: var(--text-muted);
-}
-
-.wiki-home .wiki-home-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-  margin-top: 12px;
-}
-
-.wiki-home .wiki-home-card {
-  background: var(--background-secondary);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 14px;
-  padding: 16px;
-}
-
-.wiki-home .wiki-home-card-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.wiki-home .wiki-home-card-text {
-  color: var(--text-muted);
-  font-size: 0.92rem;
-  line-height: 1.45;
-  margin-bottom: 12px;
-}
-
-.wiki-home .wiki-home-card-link,
-.wiki-home .wiki-home-card-link a {
-  font-weight: 700;
-}
-
-.wiki-home .wiki-home-links-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  margin-top: 10px;
-}
-
-.wiki-home .wiki-home-link-card {
-  background: var(--background-secondary);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 12px;
-  padding: 14px;
-  cursor: pointer;
-  transition: transform 0.15s ease, border-color 0.15s ease;
-}
-
-.wiki-home .wiki-home-link-card:hover {
-  transform: translateY(-2px);
-  border-color: var(--interactive-accent);
-}
-
-.wiki-home .wiki-home-link-title {
-  font-weight: 700;
-  color: var(--text-normal);
-}
-
-/* =========================
-   MAPA INTERATIVO
-========================= */
-
-.wiki-home .wiki-map-wrapper {
-  margin: 16px 0 24px 0;
-}
-
-.wiki-home .wiki-map-container {
-  position: relative;
-  width: 100%;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 14px;
-  overflow: hidden;
-  background: var(--background-secondary);
-}
-
-.wiki-home .wiki-map-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.wiki-home .wiki-map-point {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  z-index: 5;
-}
-
-.wiki-home .wiki-map-dot {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--interactive-accent);
-  border: 2px solid var(--background-primary);
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
-}
-
-.wiki-home .wiki-map-label {
-  margin-top: 6px;
-  padding: 4px 8px;
-  border-radius: 8px;
-  background: var(--background-primary-alt);
-  border: 1px solid var(--background-modifier-border);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-normal);
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-50%);
-  position: absolute;
-  left: 50%;
-  top: 18px;
-  transition: opacity 0.15s ease;
-}
-
-.wiki-home .wiki-map-point:hover .wiki-map-label {
-  opacity: 1;
-}
-
-/* =========================
-   CLEAR / FOOTER
-========================= */
-
-.wiki-character hr,
-.wiki-character .mod-footer,
-.wiki-home hr,
-.wiki-home .mod-footer {
-  clear: both;
-}
-
-/* =========================
    RESPONSIVO
 ========================= */
 
 @media (max-width: 900px) {
-  .wiki-character .wiki-infobox-host {
-    float: none;
+  .wiki-character .wiki-top-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .wiki-character .wiki-top-side {
     width: 100%;
-    margin: 0 0 20px 0;
+    justify-self: stretch;
   }
 }
 
-.wiki-global-search {
-  margin: 10px 0 16px 0;
-}
-
-.wiki-global-search-input {
-  width: 100%;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid var(--background-modifier-border);
-  background: var(--background-secondary);
-  color: var(--text-normal);
-  font-size: 0.95rem;
-  box-sizing: border-box;
-}
-
-.wiki-global-search-input:focus {
-  outline: none;
-  border-color: var(--interactive-accent);
-}
-
-.wiki-global-results {
-  margin-top: 12px;
-}
-
-.wiki-search-empty {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-
+/* remove título duplicado do obsidian */
 .inline-title {
   display: none;
 }
-

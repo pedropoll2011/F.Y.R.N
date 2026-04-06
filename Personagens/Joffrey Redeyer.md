@@ -1,45 +1,37 @@
 ---
 type: character
-name: Drake Bell
+name: Joffrey Redeyer
 image: ""
-images:
-  - Imagens/drake.jpeg
-  - Imagens/drake2.png
-  - Imagens/drake3.png
+images: []
 species: "[[Humano]]"
 gender: Masculino
-age: "20"
-birthday:
-  - —/—/414 da [[Segunda Era]]
+age: ""
+birthday: ""
 sign: ""
 status: Vivo
 affiliation:
-  - Co-fundador da [[Ordem]]
-  - Fundador e Lider dos [[Novos Cavaleiros das Chamas Negras]]
+  - Alto-mestre de [[Os Cajados Rubros]]
 occupation:
-  - "[[Aventureiro]]"
-class: "[[Cavaleiro]]"
-believes_in:
-  - "[[Imarth]]"
-  - "[[Ýria]]"
+class: ""
+believes_in: []
 city: ""
-region: "[[Ther (Condado)]]"
+region: ""
 continent: ""
-kingdom: "[[Alvölandd]]"
-altura: 1,80
+kingdom: ""
+altura: ""
 origin: "[[A Ordem e o Kaos]]"
 alignment: ""
 tags:
   - character
   - male
-  - player_character
+  - npc
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: Personagem de Jogador  
+> [!abstract] Voce esta numa página de categoria: NPC  
 [[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
@@ -205,8 +197,24 @@ const leftMarkdown = `
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+—
 
+## História
+
+Desde pequeno Joffrey ja fazia parte da guilda mercantil [[Os Cajados Rubros]], mas foi em 504 da Segunda Era, em meio a guerra contra o [[Kaos]] que ele acaba se tornando Alto-mestre — o novo líder da guilda.
+
+De maneira praticamente milagrosa, Joffrey consegue manter a guilda funcionando mesmo nos tempos de crise da guerra, mudando várias operações para se adaptar as condições terríveis que assolavam [[Alvölandd]] e outros reinados.
+
+## Personalidade
+
+Joffrey tem um senso de responsabilidade muito grande, como Auto-mestre de sua guilda mercantil, seu objetivo é restaurar o mercado no reino de [[Alvölandd]] de volta como era antes do [[Kaos]]
+
+## Habilidades e notas
+
+Mentalmente resiliente e com grande visão de negócio
+
+## Relações
+—
 `;
 
 const MR =
@@ -303,24 +311,10 @@ if (carousel) {
 ```
 <!-- WIKI:TOP:END -->
 
-## História
-
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
-
-## Personalidade
-
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
-
-## Habilidades e notas
-
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
-
-## Relações
--
 
 ## Aparições
--
-
+#### [[Especial Origens]]
+[[Itaú Banham|Itaú]], [[Drake Bell|Drake]], [[Tryte Yendévor|Tryte]] e [[Lumúm Arnyol|Lumúm]] houvem um discurso feito por Joffrey, em seguida todos assinam o fatídico [[Contrato de Negociação]] que os levariam (menos Lumúm) até [[Ther (Cidade)]] para entregar suprimentos
 <!-- WIKI:RELACIONADOS:START -->
 ![[Blocos/reino#^semtitulo]]
 ![[Blocos/cidade#^semtitulo]]

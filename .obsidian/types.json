@@ -6,6 +6,7 @@
     "affiliation": "multitext",
     "location": "text",
     "birthday": "multitext",
-    "occupation": "multitext"
+    "occupation": "multitext",
+    "believes_in": "multitext"
   }
 }

@@ -1,45 +1,44 @@
+<%* 
+let nome = await tp.system.prompt("Nome da entidade");
+if (!nome || nome.trim() === "") {
+  nome = "Entidade Sem Nome";
+}
+nome = nome.replace(/[\\/:*?"<>|]/g, "").trim();
+await tp.file.rename(nome);
+_%>
 ---
-type: character
-name: Drake Bell
+type: entity
+name: "<% nome %>"
 image: ""
-images:
-  - Imagens/drake.jpeg
-  - Imagens/drake2.png
-  - Imagens/drake3.png
-species: "[[Humano]]"
-gender: Masculino
-age: "20"
-birthday:
-  - —/—/414 da [[Segunda Era]]
-sign: ""
-status: Vivo
-affiliation:
-  - Co-fundador da [[Ordem]]
-  - Fundador e Lider dos [[Novos Cavaleiros das Chamas Negras]]
-occupation:
-  - "[[Aventureiro]]"
-class: "[[Cavaleiro]]"
-believes_in:
-  - "[[Imarth]]"
-  - "[[Ýria]]"
-city: ""
-region: "[[Ther (Condado)]]"
-continent: ""
-kingdom: "[[Alvölandd]]"
-altura: 1,80
-origin: "[[A Ordem e o Kaos]]"
+images: []
+species: ""
+gender: ""
+title: ""
+domain: []
 alignment: ""
-tags:
-  - character
-  - male
-  - player_character
+nature: ""
+status: ""
+plane: ""
+pantheon: ""
+worshippers: []
+symbols: []
+sacred_places: []
+blessings: []
+curses: []
+appearance: ""
+personality: ""
+goals: []
+enemies: []
+allies: []
+origin: ""
+tags: [entity]
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: Personagem de Jogador  
+> [!abstract] Voce esta numa página de categoria: Entidade  
 [[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
@@ -205,7 +204,7 @@ const leftMarkdown = `
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+Escreva aqui a presença da entidade, sua manifestação, aura, voz, influência e a impressão que ela causa em mortais ou outras forças sobrenaturais.
 
 `;
 
@@ -227,17 +226,24 @@ right.innerHTML = `
 
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Espécie</div><div class="wiki-infobox-value">${rich(page.species)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Gênero</div><div class="wiki-infobox-value">${rich(page.gender)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Idade</div><div class="wiki-infobox-value">${rich(page.age)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Data de nascimento</div><div class="wiki-infobox-value">${rich(page.birthday)} (${rich(page.sign)})</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Altura</div><div class="wiki-infobox-value">${rich(page.altura)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Status</div><div class="wiki-infobox-value">${rich(page.status)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Afiliação</div><div class="wiki-infobox-value">${rich(page.affiliation)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Ocupação</div><div class="wiki-infobox-value">${rich(page.occupation)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Título</div><div class="wiki-infobox-value">${rich(page.title)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Domínio</div><div class="wiki-infobox-value">${rich(page.domain)}</div></div>
   <div class="wiki-infobox-row"><div class="wiki-infobox-label">Alinhamento</div><div class="wiki-infobox-value">${rich(page.alignment)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Crença</div><div class="wiki-infobox-value">${rich(page.believes_in)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Classe</div><div class="wiki-infobox-value">${rich(page.class)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Local de origem</div><div class="wiki-infobox-value">${rich(page.kingdom)} &gt; ${rich(page.region)} &gt; ${rich(page.city)}</div></div>
-  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Campanha de origem</div><div class="wiki-infobox-value">${rich(page.origin)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Natureza</div><div class="wiki-infobox-value">${rich(page.nature)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Status</div><div class="wiki-infobox-value">${rich(page.status)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Plano</div><div class="wiki-infobox-value">${rich(page.plane)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Panteão</div><div class="wiki-infobox-value">${rich(page.pantheon)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Adoradores</div><div class="wiki-infobox-value">${rich(page.worshippers)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Símbolos</div><div class="wiki-infobox-value">${rich(page.symbols)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Locais sagrados</div><div class="wiki-infobox-value">${rich(page.sacred_places)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Bênçãos</div><div class="wiki-infobox-value">${rich(page.blessings)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Maldições</div><div class="wiki-infobox-value">${rich(page.curses)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Aparência</div><div class="wiki-infobox-value">${rich(page.appearance)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Personalidade</div><div class="wiki-infobox-value">${rich(page.personality)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Objetivos</div><div class="wiki-infobox-value">${rich(page.goals)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Aliados</div><div class="wiki-infobox-value">${rich(page.allies)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Inimigos</div><div class="wiki-infobox-value">${rich(page.enemies)}</div></div>
+  <div class="wiki-infobox-row"><div class="wiki-infobox-label">Origem</div><div class="wiki-infobox-value">${rich(page.origin)}</div></div>
 </div>
 `;
 
@@ -305,15 +311,23 @@ if (carousel) {
 
 ## História
 
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
+Escreva aqui a origem da entidade, como ela surgiu, de onde veio seu poder, quais eventos marcaram sua existência e qual seu papel no mundo.
 
-## Personalidade
+## Dogma e influência
 
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
+Descreva aquilo que a entidade representa, seus mandamentos, tabus, promessas, exigências e a forma como influencia mortais, reinos ou outras forças sobrenaturais.
 
-## Habilidades e notas
+## Culto e seguidores
 
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
+Explique quem a venera, como ocorrem os rituais, quais oferendas são feitas, como funcionam templos, seitas, ordens ou pactos ligados a ela.
+
+## Poderes e manifestações
+
+Anote milagres, bênçãos, maldições, sinais, avatares, aparições, formas assumidas e efeitos causados por sua presença.
+
+## Relações divinas ou infernais
+
+Descreva alianças, rivalidades, guerras antigas, pactos, laços de sangue cósmico e conexões com outros seres sobrenaturais.
 
 ## Relações
 -
@@ -323,5 +337,6 @@ Anote poderes, técnicas, itens importantes, segredos e curiosidades.
 
 <!-- WIKI:RELACIONADOS:START -->
 ![[Blocos/reino#^semtitulo]]
+![[Blocos/regiao#^semtitulo]]
 ![[Blocos/cidade#^semtitulo]]
 <!-- WIKI:RELACIONADOS:END -->
