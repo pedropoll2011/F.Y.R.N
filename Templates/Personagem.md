@@ -35,7 +35,8 @@ cssclasses:
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: NPC [[Voltar a tela principal]]]]
+> [!abstract] Voce esta numa página de categoria: NPC 
+[[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
 ```dataviewjs
@@ -200,7 +201,23 @@ const leftMarkdown = `
 
 ## Descrição
 
-Escreva aqui a aparência geral, postura, voz, presença e impressão que o personagem passa.
+—
+
+## História
+
+—
+
+## Personalidade
+
+—
+
+## Habilidades e notas
+
+—
+
+## Relações
+
+—
 
 `;
 
@@ -298,24 +315,12 @@ if (carousel) {
 ```
 <!-- WIKI:TOP:END -->
 
-## História
-
-Escreva aqui o passado do personagem, eventos importantes e papel na campanha.
-
-## Personalidade
-
-Descreva qualidades, defeitos, desejos, medos, manias e comportamento.
-
-## Habilidades e notas
-
-Anote poderes, técnicas, itens importantes, segredos e curiosidades.
-
-## Relações
--
 
 ## Aparições
--
 
+—
+
+---
 <!-- WIKI:RELACIONADOS:START -->
 ![[Blocos/reino#^semtitulo]]
 ![[Blocos/cidade#^semtitulo]]

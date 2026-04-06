@@ -1,17 +1,18 @@
 ---
 type: character
-name: Joffrey Redeyer
+name: Bienna
 image: ""
-images: []
-species: "[[Humano]]"
-gender: Masculino
+images:
+  - Imagens/bienna.png
+species: "[[Híbrido (Orc e Elfo)]]"
+gender: Feminino
 age: ""
 birthday: ""
 sign: ""
-status: Vivo
+status: Viva
 affiliation:
-  - Alto-mestre de [[Os Cajados Rubros]]
-occupation:
+  - Tesoureira da [[Ordem]]
+occupation: ""
 class: ""
 believes_in: []
 city: ""
@@ -23,15 +24,13 @@ origin: "[[A Ordem e o Kaos]]"
 alignment: ""
 tags:
   - character
-  - male
-  - npc
 cssclasses:
   - wiki-character
 ---
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: NPC  
+> [!abstract] Voce esta numa página de categoria: NPC 
 [[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
@@ -201,20 +200,20 @@ const leftMarkdown = `
 
 ## História
 
-Desde pequeno Joffrey ja fazia parte da guilda mercantil [[Os Cajados Rubros]], mas foi em 504 da Segunda Era, em meio a guerra contra o [[Kaos]] que ele acaba se tornando Alto-mestre — o novo líder da guilda.
-
-De maneira praticamente milagrosa, Joffrey consegue manter a guilda funcionando mesmo nos tempos de crise da guerra, mudando várias operações para se adaptar as condições terríveis que assolavam [[Alvölandd]] e outros reinados.
+—
 
 ## Personalidade
 
-Joffrey tem um senso de responsabilidade muito grande, como Auto-mestre de sua guilda mercantil, seu objetivo é restaurar o mercado no reino de [[Alvölandd]] de volta como era antes do [[Kaos]]
+—
 
 ## Habilidades e notas
 
-Mentalmente resiliente e com grande visão de negócio
+—
 
 ## Relações
+
 —
+
 `;
 
 const MR =
@@ -313,8 +312,8 @@ if (carousel) {
 
 
 ## Aparições
-#### [[Especial Origens]]
-[[Itaú Banham|Itaú]], [[Drake Bell|Drake]], [[Tryte Yendévor|Tryte]] e [[Lumúm Arnyol|Lumúm]] ouvem um discurso feito por Joffrey, em seguida todos assinam o fatídico [[Contrato de Negociação]] que os levariam até [[Ther (Cidade)|Ther]] para entregar suprimentos
+
+—
 
 ---
 <!-- WIKI:RELACIONADOS:START -->

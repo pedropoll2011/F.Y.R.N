@@ -1,17 +1,17 @@
 ---
 type: character
-name: Joffrey Redeyer
+name: Lumúm Arnyol
 image: ""
-images: []
-species: "[[Humano]]"
+images:
+species: "[[Anão]]"
 gender: Masculino
 age: ""
 birthday: ""
 sign: ""
-status: Vivo
-affiliation:
-  - Alto-mestre de [[Os Cajados Rubros]]
+status: Falecido ✞ —/—/— da Segunda Era
+affiliation: ""
 occupation:
+  - "[[Aventureiro]]"
 class: ""
 believes_in: []
 city: ""
@@ -20,7 +20,7 @@ continent: ""
 kingdom: ""
 altura: ""
 origin: "[[A Ordem e o Kaos]]"
-alignment: ""
+alignment: "[[Lawful Good]]"
 tags:
   - character
   - male
@@ -31,7 +31,7 @@ cssclasses:
 
 ![[Blocos/pesquisa_cards#^semtitulo]]
 
-> [!abstract] Voce esta numa página de categoria: NPC  
+> [!abstract] Voce esta numa página de categoria: NPC 
 [[Voltar a tela principal]]
 
 <!-- WIKI:TOP:START -->
@@ -201,20 +201,21 @@ const leftMarkdown = `
 
 ## História
 
-Desde pequeno Joffrey ja fazia parte da guilda mercantil [[Os Cajados Rubros]], mas foi em 504 da Segunda Era, em meio a guerra contra o [[Kaos]] que ele acaba se tornando Alto-mestre — o novo líder da guilda.
+Lumúm estava de passagem por [[Hulmar]] junto de seus companheiros quando recebe a oferta de realizar uma entrega pela guilda [[Os Cajados Rubros]], ele acaba aceitando a oferta e assinando o contrato para entregar suprimentos a cidade de [[Ther]] junto a [[Itaú Banham|Itaú]], [[Drake Bell|Drake]] e [[Tryte Yendévor|Tryte]].
 
-De maneira praticamente milagrosa, Joffrey consegue manter a guilda funcionando mesmo nos tempos de crise da guerra, mudando várias operações para se adaptar as condições terríveis que assolavam [[Alvölandd]] e outros reinados.
+Porem, no caminho de sua entrega, Lumúm e seu grupo são atacados pelo temido grupo de ladrões de [[Gnuthur|Gnuthur "Calda de Lobo"]], o grupo se separa e Lumúm acaba sendo capturado e levado até as [[Minas de Fjavar]], onde foi torturado e depois de um tempo acabou morrendo pelas mãos dos subordinados de [[Gnuthur]].
 
 ## Personalidade
 
-Joffrey tem um senso de responsabilidade muito grande, como Auto-mestre de sua guilda mercantil, seu objetivo é restaurar o mercado no reino de [[Alvölandd]] de volta como era antes do [[Kaos]]
+Extremamente altruista e heróico, defende até mesmo aqueles que não conhece.
 
 ## Habilidades e notas
 
-Mentalmente resiliente e com grande visão de negócio
+Mostrava capacidades de liderança, era considerado o de facto lider na sua última missão antes do contrato.
 
 ## Relações
 —
+
 `;
 
 const MR =
@@ -313,8 +314,10 @@ if (carousel) {
 
 
 ## Aparições
-#### [[Especial Origens]]
-[[Itaú Banham|Itaú]], [[Drake Bell|Drake]], [[Tryte Yendévor|Tryte]] e [[Lumúm Arnyol|Lumúm]] ouvem um discurso feito por Joffrey, em seguida todos assinam o fatídico [[Contrato de Negociação]] que os levariam até [[Ther (Cidade)|Ther]] para entregar suprimentos
+#### **[[Especial Origens]]**
+[[Itaú Banham|Itaú]], [[Drake Bell|Drake]], [[Tryte Yendévor|Tryte]] e Lumúm ouvem um discurso feito pelo Alto-mestre da guilda [[Os Cajados Rubros]], [[Joffrey Redeyer]]. Em seguida todos assinam o fatídico [[Contrato de Negociação]] que os levariam até [[Ther (Cidade)|Ther]] para entregar suprimentos.
+#### *[[???]]*
+Após a derrota de [[Gnuthur]] e seus aliados na [[Batalha de Ther de 534]], uma equipe de [[Ther (Cidade)]] foi mandada para as  [[Minas de Fjavar]] que antes estava sob o controle de [[Gnuthur]] e seus subordinados, la eles encontram o corpo de Lumúm, grotescamente torturado e pregado a uma cruz junto com outros dois homens.
 
 ---
 <!-- WIKI:RELACIONADOS:START -->
